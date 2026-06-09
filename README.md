@@ -1,5 +1,5 @@
 # freeCodeCamp/Build-a-Periodic-Table-Database
-
+```
 CREATE TABLE types (
   type_id SERIAL PRIMARY KEY,
   type VARCHAR(50) NOT NULL,
@@ -51,3 +51,4 @@ DELETE FROM properties WHERE atomic_number = 1000;
 DELETE FROM elements WHERE atomic_number = 1000;
 
 ALTER TABLE properties DROP COLUMN type;
+```
